@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding-left: 0.2cm;
+} 
+
+.rows:after { 
+    content:"";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    color: black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+
+.claseTitulo {
+    
+    font-weight: bold;
+    font-size:x-large;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+li, p  {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 150%;
+}
+
+
+#columna1 {
+    float: left;
+    background-color: rgb(105, 165, 105);
+    width: 40%;
+}
+
+#columna2 {
+    float: right;
+    width: 60%;
+    padding-left: 5%;
+}
+
+button {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 1%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #columna2 {
+        width: 100%;
+        background-color: lightyellow;
+    }
+
+    #columna1 {
+        width: 100%;
+        background-color: lightyellow;
+    }
+    
+}
+
+#boton {
+    scroll-padding-bottom: down;
+}

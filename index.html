@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ejercicio final</title>
+    <link rel="stylesheet" type="text/css" href="cv_estilo.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<meta property="og:title" content="CV">
+<meta property="og: type" content="article">
+<meta property="og:description" content="Este es el CV de Melina Thompson">
+</head>
+<body>
+    <h1> CURRICULUM VITAE - Melina Thompson</h1>
+
+<div class="rows" >
+    <div id="columna1">
+        <img src="fotomelina2.png" style="max-width:100%;height:auto">
+        <h2 class="claseTitulo">Información personal</h2>
+          <p>  <i class="fa fa-phone"> </i>Telefono de contacto: 11-9999-9999  </p>
+          <p>  Localidad: Buenos Aires </p>
+          <p>  Mail: melina_thompson@gmail.com  </p>
+        <h3 class="claseTitulo">Mi perfil</h3>
+          <p> Soy una profesional con gran iniciativa personal. Me divierten los desafíos. Tengo mas de 7 años de experiencia docente, que me han brindado un buen manejo de las relaciones interpersonales con una gran adaptabilidad al trabajo de equipo.</p>     
+    </div>
+   
+    <div id="columna2">
+       <h4 class="claseTitulo">Habilidades personales</h4>
+         <li>SPSS (nivel medio)</li>
+         <li>Paquete office</li>
+         <li>Ingles avanzado </li>
+         <li>Frances avanzado </li>
+         <li>Italiano inicial</li>
+ 
+     <h5 class="claseTitulo">Experiencia laboral</h5>
+      <li>Docencia - UNPAZ -  2022 a la actualidad</li>
+      <li>Docencia -UNLAM  - 2015-2017</li>
+      <li>Docencia nivel medio - Gobierno de la Ciudad de Bs. As. - 2015 a la actualidad</li>
+      <li>Analista de datos jr - CRR - 2010 -2011</li>
+
+     <h6 class="claseTitulo">Formacion academica</h6>
+      <li>Maestría en Generacion y Analisis de Info. estadística - UNTREF - 2017 -  Adeuda Tesis </li>
+      <li>Lic. y Prof. en Sociología - UBA</li>
+     </div>
+</div>
+</body>
+
+<footer> 
+    
+    <button type="button" id="boton"  >Te interesa saber más de mi perfil? Contactame</button>
+         
+          <form id="formulario" style="display: none" action="" method=""  onsubmit="return validando()">
+            <div>
+            <label>Organismo/Empresa</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese nombre de organismo/empresa" required/>
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="mail" id="Email" name="mail" placeholder="Ingrese su email de contacto" required/>
+          </div>
+            <div>
+            <label >Consulta</label>
+            <input type="text" name="Consultas" placeholder="Ingrese consulta sobre el cv" required/>
+          </div> 
+           <div>
+          <button type="submit" id="botonEnviar" >Enviar</button>
+        </div>
+          </form>
+        
+        
+   <script src="cv_javas.js" ></script>
+</footer>
+</html>   
+
+
